@@ -25,8 +25,15 @@ render_with_liquid: false
 <p style="text-align: justify;">Recently, Advanced Persistent Threat (APT) groups have increasingly used Cobalt Strike. Below are some notable cyber threat incidents involving Cobalt Strike:</p>
 
 <p style="text-align: justify;"><b>APT29 and Cobalt Strike (2018):</b> APT29, a hacking group, used Cobalt Strike in their assaults on the U.S. energy sector. They utilized it for network infiltration, payload execution, and theft of sensitive data, including login credentials and financial information (Mandiant, 2021).</p>
-<p style="text-align: justify;"></p>
-<p style="text-align: justify;"></p>
+<p style="text-align: justify;"><b>Lazarus Group (2019):</b> The Lazarus hacking group employed Cobalt Strike in their attacks targeting banks and financial institutions. Their activities included network infiltration, backdoor execution, and stealing critical data such as customer records and transaction details (SentinelOne, 2023).</p>
+
+<p style="text-align: justify;"><b>Emissary Panda’s Operations (2020):</b> In their attacks on government entities and defense contractors, the Emissary Panda group utilized Cobalt Strike for network penetration, malware deployment, and exfiltration of sensitive information like classified documents and research data (SentinelOne, 2023).</p>
+
+<p style="text-align: justify;"><b>Trickbot Operators (2020):</b> Operators of Trickbot used PowerTrick and Cobalt Strike to implement their Anchor backdoor and deploy RYUK ransomware (Cisco Talos , 2022).</p>
+
+<p style="text-align: justify;"><b>APT Attackers and CobaltStrike Beacon:</b> APT attackers employed a CobaltStrike beacon, using a previously unknown persistence method through DLL hijacking, to connect to a company’s VPN via a public PureVPN node (SentinelOne, 2023).</p>
+
+<p style="text-align: justify;"><b>LockBit Ransomware and Cobalt Strike:</b> LockBit ransomware discovered a novel method to bypass security measures by utilizing a Windows Defender command-line tool to decrypt and execute Cobalt Strike payloads (Toulas, 2022).</p>
 
 <img alt="image" src="../images/image4.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 <img alt="image" src="../images/image5.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
