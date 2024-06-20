@@ -58,12 +58,13 @@ render_with_liquid: false
 <img alt="image" src="../images/image31.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
 <img alt="image" src="../images/image32.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
 <img alt="image" src="../images/image33.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
-<img alt="image" src="../images/image34.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
-<img alt="image" src="../images/image35.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
-<img alt="image" src="../images/image36.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
-<img alt="image" src="../images/image37.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
-<img alt="image" src="../images/image38.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
-<img alt="image" src="../images/image39.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
+
+<div style="display: flex; justify-content: center; width: 100%; max-width: 1200px;gap:10px;">
+    <img alt="image" src="../images/image37.png" style="max-width: 100%; height: auto; object-fit: contain; display: block; margin: 0 auto;">
+    <img alt="image" src="../images/image38.png" style="max-width: 100%; height: auto; object-fit: contain; display: block; margin: 0 auto;">
+    <img alt="image" src="../images/image39.png" style="max-width: 100%; height: auto; object-fit: contain; display: block; margin: 0 auto;">
+</div>
+
 <img alt="image" src="../images/image40.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 <img alt="image" src="../images/image41.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 <img alt="image" src="../images/image42.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
