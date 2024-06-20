@@ -16,9 +16,18 @@ render_with_liquid: false
 
 <p style="text-align: justify;">In my blog, I will offer a brief and clear explanation of Cobalt Strike, outlining its basic functions and significance in cybersecurity. This will serve as an introduction or primer to the topic. For a more detailed exploration, readers can refer to the in-depth blog by my esteemed friend, batchmate, and coworker Mingmar Lama titled “Demystifying Cobalt Strike” which provides a comprehensive analysis of Cobalt Strike and its applications.</p>
 
+<h1>Cobalt Strike</h1>
+
 <p style="text-align: justify;">Cobalt Strike is a commercial penetration testing tool, renowned for its capability to simulate advanced cyber threats. Introduced in 2012 by Raphael Mudge, Cobalt Strike was designed to replicate the tactics, techniques, and procedures (TTPs) used by sophisticated attackers, providing security professionals with a robust platform for assessing the security of networks and systems.</p>
 
 <img src="../images/image3.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
+
+<p style="text-align: justify;">Recently, Advanced Persistent Threat (APT) groups have increasingly used Cobalt Strike. Below are some notable cyber threat incidents involving Cobalt Strike:</p>
+
+<p style="text-align: justify;"><b>APT29 and Cobalt Strike (2018):</b> APT29, a hacking group, used Cobalt Strike in their assaults on the U.S. energy sector. They utilized it for network infiltration, payload execution, and theft of sensitive data, including login credentials and financial information (Mandiant, 2021).</p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"></p>
+
 <img src="../images/image4.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 <img src="../images/image5.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 <img src="../images/image7.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
