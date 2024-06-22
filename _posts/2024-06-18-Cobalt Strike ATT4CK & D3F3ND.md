@@ -35,42 +35,68 @@ render_with_liquid: false
 
 <p style="text-align: justify;"><b>LockBit Ransomware and Cobalt Strike:</b> LockBit ransomware discovered a novel method to bypass security measures by utilizing a Windows Defender command-line tool to decrypt and execute Cobalt Strike payloads (Toulas, 2022).</p>
 
-<h1>Starting the Cobalt Strike Teamserver and Crafting a Stageless payload</h1>
+<h1>Starting the Cobalt Strike Teamserver and Crafting a Stageless payload</h1><br>
 
 <blockquote class="lf lg lh"><p id="8bfc" class="li lj lk ll b lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf mg fi bj" data-selectable-paragraph="">Disclaimer: The use of cracked or unauthorized versions of Cobalt Strike software is strictly prohibited and not encouraged. Users are advised to handle such tools responsibly and ethically, adhering to legal and professional standards.</p></blockquote>
 
-<img alt="image" src="../images/image4.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
+<img alt="image" src="../images/image24.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
 
 <p style="text-align: justify;">The Cobalt Strike team server is initiated and hosted on a public IP address. This setup enables the Cobalt Strike graphical user interface (GUI) client to effectively communicate and interact with the Cobalt Strike server. This configuration is essential for establishing the necessary command and control infrastructure for operations.</p>
 
-<img alt="image" src="../images/image5.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
+<img alt="image" src="../images/image25.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 
 <p style="text-align: justify;">The client establishes a connection with the Cobalt Strike server by inputting the required credentials. For security and confidentiality purposes, these credentials have been omitted from this documentation.
 </p>
 
-
-<img alt="image" src="../images/image7.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
+<img alt="image" src="../images/image26.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 
 <p style="text-align: justify;">Following the successful establishment of the connection, access to the Cobalt Strike graphical user interface (GUI) is now available.
 </p>
 
-<img alt="image" src="../images/image6.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
+<img alt="image" src="../images/image27.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 
 <p style="text-align: justify;">In this operation, Cobalt Strike’s extensive payload capabilities are utilized, with a particular focus on the Windows Stageless payload.</p>
 
-<img alt="image" src="../images/image8.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
+<img alt="image" src="../images/image28.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 
 <p style="text-align: justify;">The operation progresses with the establishment of a listener, designed to receive and manage connections from the Cobalt Strike beacon. This listener is configured to operate on port 1234.</p>
 
-<img alt="image" src="../images/image9.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
+<img alt="image" src="../images/image29.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 
 <p style="text-align: justify;">A Windows PowerShell stageless payload is generated, and the previously set up listener is employed to handle the reverse connection, in the event of a successful connection establishment.</p>
 
-<img alt="image" src="../images/image10.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
+<img alt="image" src="../images/image30.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 
 <p style="text-align: justify;">The payload has been successfully crafted, and the listener is now configured and ready to capture the incoming connection.</p>
 
-<img alt="image" src="../images/image11.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
+<h1>Delivering and waiting for the execution of the Cobalt Strike Beacon</h1><br>
+
+<img alt="image" src="../images/image4.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
+
+<p style="text-align: justify;">In order to deliver the malicious payload, a scenario is contrived where an email, appearing to be from the IT support team, urgently requests employees to run a PowerShell script. This script is purportedly necessary for adhering to recent changes made within the organization’s network. The email is crafted to create a sense of urgency, emphasizing the importance of immediate compliance to avoid potential issues, thereby persuading the recipients to execute the payload without suspicion..</p>
+
+<img alt="image" src="../images/image5.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
+
+<p style="text-align: justify;">Following the successful execution of the payload, it initiates a callback to the previously configured listener. This action signifies that the computer has now been compromised, as the payload has established communication with an external controller, potentially allowing unauthorized access and control over the system.</p>
+
+<img alt="image" src="../images/image6.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
+
+<p style="text-align: justify;">When granted administrator privileges, Cobalt Strike has the capability to run Mimikatz, resulting in the dumping of NTLM hashes from the compromised computer.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <img alt="image" src="../images/image12.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 <img alt="image" src="../images/image13.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 <img alt="image" src="../images/image14.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
@@ -83,9 +109,7 @@ render_with_liquid: false
 <img alt="image" src="../images/image21.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 <img alt="image" src="../images/image22.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 <img alt="image" src="../images/image23.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
-<img alt="image" src="../images/image24.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
-<img alt="image" src="../images/image25.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
-<img alt="image" src="../images/image26.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
+
 <img alt="image" src="../images/image27.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
 <img alt="image" src="../images/image28.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
 <img alt="image" src="../images/image29.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
