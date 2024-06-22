@@ -57,7 +57,7 @@ render_with_liquid: false
 
 <p style="text-align: justify;">In this operation, Cobalt Strike’s extensive payload capabilities are utilized, with a particular focus on the Windows Stageless payload.</p>
 
-<img alt="image" src="../images/image28.jpeg" height="50%" width="80%" style="display: block; margin: 0 auto;">
+<img alt="image" src="../images/image28.png" height="50%" width="80%" style="display: block; margin: 0 auto;">
 
 <p style="text-align: justify;">The operation progresses with the establishment of a listener, designed to receive and manage connections from the Cobalt Strike beacon. This listener is configured to operate on port 1234.</p>
 
